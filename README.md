@@ -110,6 +110,11 @@ going to build **Dust Racing 2D** from sources.
 
 In a nutshell, on Linux after installing `Qt5`, `OpenAL` and `Vorbis` dev libs you just:
 
+### On RHEL/Centos/Fedora
+Execute following command to install the required dependencies & then build the game.
+Dependencies:
+`$ sudo yum install mesa-libGLU-devel glfw libvorbis-devel vorbisgain openal-soft openal-soft-devel qt5-linguist`
+Build:
 `$ mkdir build && cd build`
 
 `$ cmake ..`
